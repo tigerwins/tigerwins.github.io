@@ -85,15 +85,15 @@
 					})
 					.each(function() {
 
-						var	$this = $(this),
-							id = $this.attr('href'),
-							$section = $(id);
-
-						// No section for this link? Bail.
+						var	$this = $(this);
+						var id = $this.attr('href');
+						if (id.startsWith("#")) {
+							var $section = $(id);
+							// No section for this link? Bail.
 							if ($section.length < 1)
 								return;
 
-						// Scrollex.
+							// Scrollex.
 							$section.scrollex({
 								mode: 'middle',
 								top: '-20vh',
@@ -101,31 +101,33 @@
 								initialize: function() {
 
 									// Deactivate section.
-										if (skel.canUse('transition'))
-											$section.addClass('inactive');
+									if (skel.canUse('transition'))
+									$section.addClass('inactive');
 
 								},
 								enter: function() {
 
 									// Activate section.
-										$section.removeClass('inactive');
+									$section.removeClass('inactive');
 
 									// No locked links? Deactivate all links and activate this section's one.
-										if ($sidebar_a.filter('.active-locked').length == 0) {
+									if ($sidebar_a.filter('.active-locked').length == 0) {
 
-											$sidebar_a.removeClass('active');
-											$this.addClass('active');
+										$sidebar_a.removeClass('active');
+										$this.addClass('active');
 
-										}
+									}
 
 									// Otherwise, if this section's link is the one that's locked, unlock it.
-										else if ($this.hasClass('active-locked'))
-											$this.removeClass('active-locked');
-
+									else if ($this.hasClass('active-locked'))
+									$this.removeClass('active-locked');
 								}
+
+
+								// }
 							});
 
-					});
+					}});
 
 			}
 
