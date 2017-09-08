@@ -2527,6 +2527,36 @@
 
 /* Icon */
 
+	i.fa {
+		font-size: 20px;
+		margin: 0 7.5px;
+	}
+
+	ul.techs {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	ul.techs i, ul.techs img {
+		font-size: 4em;
+		margin: 15px 30px;
+	}
+
+	ul.techs > li {
+		margin: 10px 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	ul.techs label {
+		font-size: 20px;
+		text-align: center;
+	}
+
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2585,6 +2615,10 @@
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
 				}
+/*
+				.wrapper.style4-alt .icon.major:before {
+
+				}*/
 
 /* Image */
 
@@ -2685,7 +2719,12 @@
 
 			ul.icons li {
 				display: inline-block;
+				text-align: center;
 				padding: 0 0.75em 0 0;
+			}
+
+			ul.icons > span {
+				text-align: center;
 			}
 
 				ul.icons li:last-child {
@@ -2707,7 +2746,7 @@
 					}
 
 					ul.icons li > a .label, ul.icons li > span .label {
-						display: none;
+						/*display: none;*/
 					}
 
 		ul.actions {
@@ -3253,15 +3292,24 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			/*background-color: #5e42a6;*/
+			/*background-color: #036564;*/
+			background-color: #033649;
+
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			/*background-color: #1C2D48;*/
+			/*background-color: #031634;*/
+			background-color: #020f24;
+
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			/*background-color: #ECD078;*/
+			/*background-color: #CDB380;*/
+			/*background-color: #A48F66;*/
+			background-color: #93805B;
 		}
 
 		.wrapper.style2-alt {
@@ -3269,11 +3317,16 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			/*background-color: #b74e91;*/
+			background-color: #036564;
 		}
 
 		.wrapper.style3-alt {
 			background-color: #953d75;
+		}
+
+		.wrapper.style4 {
+			background-color: #031634;
 		}
 
 		.wrapper.fullscreen {
@@ -3534,7 +3587,12 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		/*background: #312450;*/
+		/*background: #542437;*/
+		/*background: #031634;*/
+		/*background: #020F24;*/
+		background: #010915;
+
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3775,10 +3833,14 @@
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				/*background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91);*/
+				background-image: -moz-linear-gradient(to right, #93805B, #036564);
+				background-image: -webkit-linear-gradient(to right, #93805B, #036564);
+				background-image: -ms-linear-gradient(to right, #93805B, #036564);
+				background-image: linear-gradient(to right, #93805B, #036564);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
