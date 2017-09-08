@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -22,9 +23,27 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Portfolio</a></li>
-							<li><a href="#two">About Me</a></li>
-							<li><a href="#three">Experience</a></li>
+							<li><a href="#one">About</a></li>
+							<li><a href="#two">Portfolio</a></li>
+							<li><a href="#three">Skills</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.github.com/tigerwins" target="_blank" class="fa-github"><span class="label">
+								<i class="fa fa-github" aria-hidden="true"></i>
+							</span></a></li>
+							<li><a href="https://www.linkedin.com/in/jonathanzliu/" target="_blank" class="fa-linkedin"><span class="label">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</span></a></li>
+							<li><a href="https://angel.co/tigerwins" target="_blank" class="fa-angellist"><span class="label">
+								<i class="fa fa-angellist" aria-hidden="true"></i>
+							</span></a></li>
+							<li><a href="mailto:jonathan.liu137@gmail.com" target="_blank"><span class="label">
+								<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							</span></a></li>
+							<li><a href="#" target="_blank"><span class="label">
+								<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+							</span></a></li>
+
 						</ul>
 					</nav>
 				</div>
@@ -34,165 +53,130 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Jonathan Liu <h4>Software Developer<h4></h1>
-							<p>Ideation - Exposition - Execution</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+				<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<div class="inner">
+						<h1>Jonathan Liu</h1>
+						<h4>Software Developer</h4>
+						<p>Ideation - Exposition - Execution</p>
+						<ul class="actions">
+							<li><a href="#one" class="button scrolly">Learn more</a></li>
+						</ul>
+					</div>
+				</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ask()</h2>
-									<p>Ask() is a single-page, full-stack web application inspired by Quora that allows users to ask and answer questions. Built with Ruby on Rails and PostgreSQL on the backend and React.js and Redux on the frontend.</p>
-									<ul class="actions">
-										<li><a href="http://www.the-ask-app.com" class="button" target="_blank">Live Site</a></li>
-										<li><a href="https://github.com/tigerwins/AskApp" class="button" target="_blank">Github</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Synesthesia</h2>
-									<p>A treat for the senses. Synesthesia is a music visualization experience for the browser created in JavaScript using the Three.js 3D rendering library and the Web Audio API.</p>
-									<ul class="actions">
-										<li><a href="#" class="button" target="_blank">Live Site</a></li>
-										<li><a href="https://github.com/tigerwins/Synesthesia" class="button" target="_blank">Github</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Runway</h2>
-									<p>Runway is a Controller and View backend framework built using Ruby that can interface with the Rack middleware and generate views for the client in response to HTTP requests. Inspired by Rails.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/tigerwins/Runway" class="button" target="_blank">Github</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+				<section id="one" class="wrapper style2 fade-up">
+					<div class="inner">
+						<h2>About</h2>
+						<p>I'm a software developer living in NYC coding primarily in Ruby on Rails, JavaScript, React.js, and Redux. The heart of my passion for code lies in the process of envisioning a particular software architecture and traversing the path of implementation to a polished end product.</p>
+
+						<p>I'm always seeking to expand my perspective, whether it's learning a new language or library, or algorithm, or simply delving deeper into my current stack.</p>
+
+						<p>When I'm away from the computer, you'll find me preparing for the next ballroom dance competition, listening to music, or enjoying a game of chess.</p>
+
+						<ul class="actions">
+							<li><a href="#" class="button">Learn more</a></li>
+						</ul>
+					</div>
+				</section>
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-chain"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-diamond"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
+				<section id="two" class="wrapper style3 spotlights">
+					<section>
+						<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+						<div class="content">
+							<div class="inner">
+								<h2>Ask()</h2>
+								<p>Ask() is a single-page, full-stack web application inspired by Quora that allows users to ask and answer questions. Built with Ruby on Rails and PostgreSQL on the backend and React.js and Redux on the frontend.</p>
+								<ul class="actions">
+									<li><a href="http://www.the-ask-app.com" class="button" target="_blank">Live Site</a></li>
+									<li><a href="https://github.com/tigerwins/AskApp" class="button" target="_blank">Github</a></li>
+								</ul>
 							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Learn more</a></li>
-							</ul>
 						</div>
 					</section>
+					<section>
+						<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+						<div class="content">
+							<div class="inner">
+								<h2>Synesthesia</h2>
+								<p>A treat for the senses. Synesthesia is a music visualization experience for the browser created in JavaScript using the Three.js 3D rendering library and the Web Audio API.</p>
+								<ul class="actions">
+									<li><a href="#" class="button" target="_blank">Live Site</a></li>
+									<li><a href="https://github.com/tigerwins/Synesthesia" class="button" target="_blank">Github</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<section>
+						<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+						<div class="content">
+							<div class="inner">
+								<h2>Runway</h2>
+								<p>Runway is a Controller and View backend framework built using Ruby that can interface with the Rack middleware and generate views for the client in response to HTTP requests. Inspired by Rails.</p>
+								<ul class="actions">
+									<li><a href="https://github.com/tigerwins/Runway" class="button" target="_blank">Github</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+				<section id="three" class="wrapper style1 fade-up">
+					<div class="inner">
+						<h2>Skills</h2>
+						<ul class="techs">
+							<li><i class="devicon-ruby-plain colored" title="Ruby"></i><label>Ruby</label></li>
+							<li><i class="devicon-rails-plain colored" title="Rails"></i><label>Rails</label></li>
+							<li><i class="devicon-javascript-plain colored" title="JavaScript"></i><label>JavaScript</label></li>
+							<li><i class="devicon-react-original colored" title="React.js"></i><label>React.js</label></li>
+							<li><img src="./images/redux.png" width="69.33" width="69.5" title="Redux"><label>Redux</label></li>
+							<li><i class="devicon-postgresql-plain colored" title="PostgreSQL"></i><label>PostgreSQL</label></li>
+							<li><i class="devicon-jquery-plain colored" title="jQuery"></i><label>jQuery</label></li>
+							<li><i class="devicon-html5-plain colored" title="HTML5"></i><label>HTML5</label></li>
+							<li><i class="devicon-css3-plain colored" title="CSS3"></i><label>CSS3</label></li>
+							<li><i class="devicon-ubuntu-plain colored" title="Ubuntu"></i><label>Ubuntu</label></li>
+							<li><i class="devicon-git-plain colored" title="Git"></i><label>Git</label></li>
+							<li><i class="devicon-atom-original colored" title="Atom"></i><label>Atom</label></li>
+						</ul>
+					</div>
+				</section>
 
-			</div>
+				<section id="four" class="wrapper style4 fade-up">
+					<div class="inner">
+						<h2>Skills</h2>
+						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+						<div class="split style1">
+							<section>
+								<form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="5"></textarea>
+									</div>
+									<ul class="actions">
+										<li><a href="" class="button submit">Send Message</a></li>
+									</ul>
+								</form>
+							</section>
+						</div>
+					</div>
+				</section>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Jonathan Liu. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
