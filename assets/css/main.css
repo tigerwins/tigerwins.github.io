@@ -2570,6 +2570,17 @@
 		margin-left: 10px;
 	}
 
+	.photo {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.headshot {
+		text-align: center;
+	}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
