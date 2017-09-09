@@ -2535,17 +2535,14 @@
 	ul.techs {
 		list-style: none;
 		display: flex;
+		justify-content: space-around;
 		flex-wrap: wrap;
 	}
 
-	ul.techs i, ul.techs img {
-		font-size: 4em;
-		margin: 15px 30px;
-	}
-
 	ul.techs img {
-		height: 69px;
-		width: 69.33px;
+		margin: 15px 30px;
+		height: 70px;
+		width: 70px;
 	}
 
 	ul.techs > li {
@@ -2554,6 +2551,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		/*width: 12.5%;*/
 	}
 
 	ul.techs label {
