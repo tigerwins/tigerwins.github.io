@@ -2552,6 +2552,7 @@
 		justify-content: center;
 		align-items: center;
 		width: 12%;
+		min-width: 120px;
 	}
 
 	ul.techs label {
