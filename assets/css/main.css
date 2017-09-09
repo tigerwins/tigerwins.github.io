@@ -2551,7 +2551,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		/*width: 12.5%;*/
+		width: 12%;
 	}
 
 	ul.techs label {
